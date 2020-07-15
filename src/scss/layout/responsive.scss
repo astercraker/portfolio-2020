@@ -1,0 +1,63 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .navbar-menu__items {
+        display: none;
+    }
+    .main-layer__title {
+        width: 100%;
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        display: none;
+    }
+    .main-layer__introduction {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .navbar-menu__button {
+        display: inline-block;
+        height: 3.5rem;
+        min-width: 2.5rem;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        float: right;
+    }
+    .navbar-menu__button svg{
+        background-color: rgba(191, 194, 197, 0.678);
+    }
+ }
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) and (max-width: 767.98px) { 
+//     .navbar-menu__items {
+//         display: none;
+//     }
+//     .main-layer__title {
+//         width: 100%;
+//         font-size: 2.5rem;
+//         margin-top: 1rem;
+//         display: none;
+//     }
+//     .main-layer__introduction {
+//         width: 100%;
+//         margin-left: 0;
+//         margin-top: 2rem;
+//     }
+//  }
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) and (max-width: 991.98px) { 
+
+//  }
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+//  }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { 
+    
+//  }

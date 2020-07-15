@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boilerplate Gulp</title>
+    <script src="https://kit.fontawesome.com/4ccc9c984d.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--(if target dev)><!-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--<!(endif)-->
+    <!--(if target dist)>
+        <link rel="stylesheet" href="assets/css/main.css?cache_bust=1">
+    <!(endif)-->
+</head>
+<body>
+    <div class="ui-wrapper">
+      <header class="header">
+        <nav class="navbar active">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="./assets/images/logo.JPG" alt="" width="110"></a>
+            <div class="navbar-menu">
+              <div class="navbar-menu__button">
+                <svg viewBox="0 0 48 48" focusable="false" role="presentation" class="css-1bykxea"><g fill="currentcolor"><path d="M8 14H40V18H8z"></path><path d="M8 30H40V34H8z"></path></g></svg>
+              </div>
+              <div class="navbar-menu__items">
+                <ul>
+                  <li>
+                    <a href="#inicio" class="scroll active">Inicio</a>
+                  </li>
+                  <li>
+                    <a href="#servicios" class="scroll">Servicios</a>
+                  </li>
+                  <li>
+                    <a href="#trabajos" class="scroll">Proyectos</a>
+                  </li>
+                  <li>
+                    <a href="#contacto" class="scroll">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+        <div class="parallax">
+            <div id="group1" class="parallax__group inicio">
+              <div class="parallax__layer parallax__layer--base" style="height: 100vh;">
+                <div class="main-layer">
+                  <div class="main-layer__content">
+                    <div class="container">
+                      <h1 class="main-layer__title">
+                        <!-- Jose <br> Domingo Trejo. -->
+                        Convertimos ideas en <br> productos digitales
+                      </h1>
+                      <div class="main-layer__introduction">
+                        <p class="main-layer__introduction--title">- Introducción</p>
+                        <h3>
+                          Nuestro trabajo busca un equilibrio entre el desarrollo y el diseño.
+                        </h3>
+                        <a href="#contacto">
+                          Contáctame <i class="fas fa-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <canvas></canvas>
+              </div>
+            </div>
+            <div id="group2" class="parallax__group servicios">
+              <div class="parallax__layer parallax__layer--base">
+                <!-- <div class="title">Base Layer</div> -->
+                <div class="container layer-container">
+                  <h1>Hola</h1>
+                  <!-- <div class="title">Servicios</div> -->
+                </div>
+              </div>
+              <div class="parallax__layer parallax__layer--back">
+                <!-- <div class="title">
+                  Background Layer
+                </div> -->
+                <div class="container layer-container">
+                  <h1>Hola</h1>
+                </div>
+              </div>
+            </div>
+            <div id="group3" class="parallax__group trabajos">
+              <div class="parallax__layer parallax__layer--fore">
+                <div class="title">Foreground Layer 3</div>
+              </div>
+              <div class="parallax__layer parallax__layer--base">
+                <div class="title">Base Layer 3</div>
+              </div>
+            </div>
+            <div id="group4" class="parallax__group contacto">
+              <div class="parallax__layer parallax__layer--base">
+                <div class="title">Base Layer 4</div>
+              </div>
+              <div class="parallax__layer parallax__layer--back">
+                <div class="title">Background Layer 4</div>
+              </div>
+              <!-- <div class="parallax__layer parallax__layer--deep">
+                <div class="title">Deep Background Layer</div>
+              </div> -->
+            </div>
+            <div id="group5" class="parallax__group">
+              <div class="parallax__layer parallax__layer--fore">
+                <div class="title">Foreground Layer</div>
+              </div>
+              <div class="parallax__layer parallax__layer--base">
+                <div class="title">Base Layer</div>
+              </div>
+            </div>
+            <div id="group6" class="parallax__group">
+              <div class="parallax__layer parallax__layer--back">
+                <div class="title">Background Layer</div>
+              </div>
+              <div class="parallax__layer parallax__layer--base">
+                <div class="title">Base Layer</div>
+              </div>
+            </div>
+            <div id="group7" class="parallax__group">
+              <div class="parallax__layer parallax__layer--base">
+                <div class="title">Base Layer</div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="popup-three">
+      
+    </div>
+    <!-- <canvas></canvas> -->
+    <!--(if target dev)><!-->
+      <script src="/node_modules/three/build/three.js"></script>
+      <script type="module" src="/node_modules/three/examples/js/loaders/OBJLoader.js"></script>
+      <script type="module" src="/node_modules/three/examples/js/loaders/GLTFLoader.js"></script>
+      <script type="module" src="/node_modules/three/examples/js/controls/OrbitControls.js"></script>
+      <script src="assets/js/three.js"></script>
+      <script src="assets/js/main.js"></script>
+      <!--<!(endif)-->
+      <!--(if target dist)>
+          <script src="assets/js/script.js"></script>
+      <!(endif)-->
+</body>
+</html>
